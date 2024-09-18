@@ -35,6 +35,7 @@ header h1{
     border-bottom: solid #885efd;
     margin-top: -1%;
     align-self: center;
+    margin-left: 10%;
 }
 header span{
     color: #885efd;
@@ -66,7 +67,7 @@ header a{
      margin-right: 1%;
      margin-top: 1%;
 }
-#contentMenu{
+/*#contentMenu{
     background-color: white;
     width: 10%;
     height: 50px;
@@ -74,4 +75,38 @@ header a{
     z-index: 50112312;
     transition: 0.3s;
     
+}*/
+
+main{
+    display: flex;
+    justify-content: center;
 }
+#slogan{
+    width: 35%;
+    font-family: "SUSE";
+    background-color: rgb(248, 248, 235);
+    border-radius: 0.8rem;
+    text-align: center;
+    font-size: 150%;
+    text-shadow: 1px 0.4px 1px black;
+    margin-left: 32.5%;
+}
+#slogan span{
+    color: #885efd;
+    text-decoration: underline;
+}
+main{
+    width: 90%;
+    height: 60%;
+    align-self: center;
+    margin-left: 5%;
+ }
+ main .demoDiv{
+    background-color: rgb(248, 248, 235);
+    border-radius: 0.6rem;
+    width: 33.3%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    inset-inline: block;
+ }
