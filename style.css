@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, rgba(199, 199, 199, 0.212) 0 0), url(https://istefan.ro/img/hero/web-developer-newsletter-coder-stefan-iordache.jpg);
+    
+}
+header{
+   padding-top: 1.5%;
+   background-color: #121212e5;
+   display: flex;
+   justify-content: left;
+   
+}
+header h1{
+    color: white;
+    font-family: "SUSE";
+    display: flex;
+    border-bottom: solid #885efd;
+    margin-top: -1%;
+    align-self: center;
+}
+header span{
+    color: #885efd;
+}
+header a{
+    text-decoration: none;
+    text-align: none;
+    color: white;
+    font-family: "SUSE";
+    font-size: 120%;
+}
+.Menu{
+    display: flex;
+    margin-left: 0.5%;
+    align-self: center;
+    padding-left: 10%;
+    flex-direction: row;
+    display: inline-block;
+    transition: 0.3s;
+}
+.Menu:hover{
+    color: #885efd;
+    transition: 0.3s;
+}
+#menuBox{
+     width: 50%;
+     height: auto;
+     margin-left: 70%;
+     margin-top: 1%;
+}
+#contentMenu{
+    background-color: white;
+    width: 10%;
+    height: 0;
+    z-index: 5;
+    margin-left: 84%;
+    margin-top: -1%;
+    transition: 0.3s;
+}
