@@ -101,12 +101,19 @@ main{
     align-self: center;
     margin-left: 5%;
  }
- main .demoDiv{
-    background-color: rgb(248, 248, 235);
-    border-radius: 0.6rem;
-    width: 33.3%;
-    height: 350px;
-    display: flex;
-    flex-direction: row;
-    inset-inline: block;
- }
+main a{
+    margin-top: 10%;
+    color: rgb(248, 248, 235);
+    background-color: #7354c9f5;
+    text-decoration: none;
+    font-family: "SUSE";
+    padding: 1.5%;
+    border-radius: 0.8rem;
+    box-shadow:  0.3em 0.3em white;
+    font-size: 150%;
+    transition: 0.3s
+}
+main a:hover{
+    background-color: #6b4bc5;
+    transition: 0.3s;
+}
