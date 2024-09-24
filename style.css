@@ -61,13 +61,16 @@ header a{
     transition: 0.3s;
 }
 #menuBox{
+    display: flex;
+    flex-direction: row;
      width: 60%;
      height: auto;
      margin-left: 69%;
      margin-right: 1%;
      margin-top: 1%;
 }
-/*#contentMenu{
+/*
+#contentMenu{
     background-color: white;
     width: 10%;
     height: 50px;
