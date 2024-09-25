@@ -55,6 +55,7 @@ header a{
     flex-direction: row;
     display: inline-block;
     transition: 0.3s;
+    flex-wrap: no-wrap;
 }
 .Menu:hover{
     color: #885efd;
