@@ -62,13 +62,13 @@ header a{
     transition: 0.3s;
 }
 #menuBox{
-    display: flex;
-    flex-direction: row;
+     display: flex;
+     flex-direction: row;
      width: 60%;
      height: auto;
      margin-left: 68%;
      margin-right: 1%;
-
+    justify-content:center;
 }
 /*
 #contentMenu{
