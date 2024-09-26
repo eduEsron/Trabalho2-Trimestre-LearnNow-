@@ -85,7 +85,7 @@ nav span {
 span img{
     width: 50px;
     height: auto;
-    float: inline-start;
+    padding-right: 90%;
 }
 main{
     display: flex;
