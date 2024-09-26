@@ -1,11 +1,8 @@
-const home = document.getElementById("Home")
 const conteudo = document.getElementById("conteudo")
-const sobre = document.getElementById("sobre")
-const menu = document.getElementsByClassName("Menu")[0]
-const contentMenu = document.getElementById("contentMenu")
+const dropdownMenu = document.getElementById("nav")
 conteudo.addEventListener("mouseover", function(){
-    contentMenu.style.display="flex"
+    dropdownMenu.style.display="block"
 })
-contentMenu.addEventListener("mouseout", function(){
-    contentMenu.style.display = "none"
+dropdownMenu.addEventListener("mouseout", function(){
+    dropdownMenu.style.display = "none"
 })
