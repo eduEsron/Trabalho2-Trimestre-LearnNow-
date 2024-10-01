@@ -4,23 +4,7 @@ body{
     background-image: linear-gradient(to right, rgba(199, 199, 199, 0.212) 0 0), url(https://istefan.ro/img/hero/web-developer-newsletter-coder-stefan-iordache.jpg);
     
 }
-button{ /*Esse css é pra resetar todos os estilos do botão*/
-    color: white;
-    font-family: "SUSE";
-    text-decoration: none;
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    border-spacing: 0;
-    font-size: 120%;
-    font-weight: normal;
-    line-height: 1.42rem;
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0;
-}
+
 header{
    padding-top: 1.5%;
    background-color: #121212e5;
@@ -70,22 +54,37 @@ header a{
 nav{
     background-color: rgba(245, 245, 220, 0.808);
     width: 0.5%;
-    padding: 5%;
+    padding-right: 10%;
+    padding-top: 0.1%;
     margin-top: -1.8%;
     float: inline-end;
-    margin-right: 7.5%;
     border-radius: 0.3rem;
     display: none;
 }
 nav span {
     width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column
+    align-items: center; 
+    margin-left: 0;
+    flex-direction: row;
+    background-color: rgb(245, 245, 220);
+    padding-right: 130px;
+    
 }
 span img{
-    width: 50px;
-    height: auto;
-    padding-right: 90%;
+    width: 30px;
+    height: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav span p{
+    font-family: "SUSE";
+}
+nav span p:hover{
+    color: #6b4bc5;
 }
 main{
     display: flex;
@@ -127,6 +126,7 @@ main a:hover{
     background-color: #6b4bc5;
     transition: 0.3s;
 }
+/*css conteudo*/
 #MainContent{
     background-color: beige;
     width: 70%;
@@ -134,4 +134,18 @@ main a:hover{
     margin-top: 5%;
     margin-left: 15%;
     border-radius: 0.8rem;
+    justify-content: center;
+}
+#MainContent span{
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#MainContent div{
+    justify-content: center;
+}
+#MainContent li{
+    margin: 10%;
 }

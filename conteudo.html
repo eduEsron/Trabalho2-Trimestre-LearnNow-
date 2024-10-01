@@ -5,19 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Now.</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
       <a href="./index.html"><h1>Learn<span>Now</span></h1></a>  
       <div id="menuBox">
         <a href="./index.html" class="Menu">Home</a>
-       <a href="./conteudo.html" class="Menu">Conteúdos</a>
-       <a href="./index.html" class="Menu">Sobre</a>
+       <a href="./conteudo.html" class="Menu" id="conteudo">Conteúdos</a>
       </div>
     </header>
+    <nav id="nav">
+      <a href="conteudo.html#htmll">
+       <span class="icons">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png" alt="">
+         <p>HTML</p>
+       </span>
+      </a>
+      <a href="conteudo.html#csss">
+       <span class="icons">
+         <img src="./img/css.png" alt="">
+         <p>CSS</p>
+       </span>
+      </a>
+      <a href="conteudo.html#js">
+       <span class="icons">
+         <img src="./img/js.png" alt="">
+         <p>JS</p>
+       </span>
+      </a>
+     </nav>
 
     <main id="MainContent">
-      
+      <div>
+        <span id="htmll">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png" alt="" width="30px">
+        <h1>HTML</h1>
+      </span>
+        <h2>Tags de Texto:</h2>
+        <p>As tags de texto servem para adicionar diferentes<br>
+        tipos de texto em seu documento HTML.<br>
+        São elas:</p>
+        <ul>
+          <li>
+            Tags de titulo: &lt;h1&gt;, aumentando seu nivel até &lt;h6&gt; <br>
+            (quanto maior o nivel, menor o tamanho do texto)
+          </li>
+          <li>Tag de parágrafo: &lt;p&gt;Insira aqui o texto&lt;/p&gt;</li>
+          <li>Tag para Itálico: &lt;p&gt;&lt;i&gt;Insira aqui o texto&lt;/i&gt;&lt;/p&gt;</li>
+          <li>Tag para Negrito: &lt;p&gt;&lt;b&gt;Insira aqui o texto&lt;/b&gt;&lt;/p&gt;</li>
+          <li>Tag para Quebra de Linha: &lt;br&gt;</li>
+          <li>Tag para Texto pré-formatado: &lt;pre&gt;</li>
+          <li>Tag para criar uma linha horizontal: &lt;hr&gt;</li>
+        </ul>
+        <h2>Tags de Mídia:</h2>
+        <p>As tags de mídia servem para inserir<br>
+        tipos diferentes de mídia em seu documento HTML.<br>
+        São elas:</p>
+        <ul>
+          <li>Tag de imagem: &lt;img&gt; src="" alt=""&lt;/img&gt; </li>
+          <li>Tags de Vídeo: &lt;video&gt; &lt;source src="" type=""   &gt; &lt;/video&gt; </li>
+          <li>Tags de Audío: &lt;audio&gt; &lt;source src="" type=""   &gt; &lt;/audio&gt; </li>
+          <li>Tag para incorporar outras páginas:  &lt;iframe&gt; width="300" height="300" &lt;/Iframe&gt;</li>
+        </ul>
+        <h2>Tags de listas e tabelas</h2>
+        <ul>
+          <li>Lista não ordenada: &lt;ul&gt; &lt;/ul&gt;</li>
+          <li>Lista ordenada: &lt;ol&gt; &lt;/ol&gt;</li>
+          <li>Elementos da Lista: &lt;li&gt; &lt;/li&gt;</li>
+        </ul>
+        <h2>HTML semântico</h2>
+        <p>tem como objetivo descrever o significado do conteúdo presente em documentos HTML:</p>
+        <ul>
+          <li>Cabeçalho: &lt;header&gt; &lt;/header&gt;</li>
+          <li>Tag de navegação: &lt;nav&gt; &lt;/nav&gt;</li>
+          <li>Seção principal: &lt;main&gt; &lt;/main&gt;</li>
+          <li>Rodapé: &lt;footer&gt; &lt;/footer&gt; </li>
+        </ul>
+        <span id="csss">
+          <img src="img/css.png" alt="" width="30px">
+          <h1>CSS</h1> </span>
+          <h2>Posicionamento</h2>
+          <p>As propriedades position servem para definir como um elemento é
+          <br>posicionado na página:</p>
+          <ul>
+            <li>position: static; O elemento é posicionado de acordo com o Fluxo Normal do documento</li>
+            <li>position: relative; É deslocado em relação a si mesmo com base nos valores de <br> top right bottom, e left</li> 
+            <li>position: absolute; O elemento é removido do fluxo normal do documento e <br> nenhum espaço é criado para o elemento no layout da página. <br>O elemento é posicionado em relação ao seu ancestral posicionado mais próximo</li> 
+            <li>position: fixed; sempre permanece no mesmo lugar, mesmo que a página seja rolada</li> 
+            <li>position: sticky; é posicionado com base na posição de rolagem do usuário.</li>
+          </ul>
+          <h2>Cores e bordas</h2>
+          <ul>
+            <li>color: #; define uma cor para o texto do elemento </li>
+            <li>background-color: define uma cor de fundo para um elemento;</li> 
+            <li>border-style: ; define um estilo de borda para o elemento</li> 
+            <li>border-radius: ; define o raio da borde</li> 
+          </ul>
+          <h2>Layouts:</h2>
+          <ul>
+            <li>Layout de flexbox: layout que utilizado o display:flex; para transformar os elementos <br>
+              em flexíveis. Quando os elementos são dispostos como itens flexíveis, eles são dispostos <br>
+              ao longo de dois eixos. Além disso é unidimensional, ou seja, trabalha com uma dimensão de <br> cada vez, seja linha ou coluna.
+            </li>
+            <li>
+              Layout grid: Diferente do flexbox esse tipo de layout pode trabalhar com duas dimensões ao <br>
+              mesmo tempo. Esse layout utiliza o display: grid. a propriedade transforma todos os<br>
+              filhos diretos do contêiner em itens de grade. 
+            </li>
+          </ul>
+          <span id="js">
+            <img src="img/js.png" alt="" width="30px">
+          <h1>JavaScript</h1>
+        </span>
+          <p>Ainda em progresso.</p>
+      </div>
     </main>
 </body>
 </html>
