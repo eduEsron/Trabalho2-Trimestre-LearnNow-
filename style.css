@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(to right, rgba(199, 199, 199, 0.212) 0 0), url(https://istefan.ro/img/hero/web-developer-newsletter-coder-stefan-iordache.jpg);
-    
+    background-image: linear-gradient(to right, rgba(199, 199, 199, 0.212) 0 0), url(https://istefan.ro/img/hero/web-developer-newsletter-coder-stefan-iordache.jpg);   
+    background-attachment: fixed;
 }
-
 header{
    padding-top: 1.5%;
    background-color: #121212e5;
@@ -148,4 +147,13 @@ main a:hover{
 }
 #MainContent li{
     margin: 10%;
+}
+
+#back img{
+   width: 3%; 
+   background-color: #bda5ff6e;
+   border-radius: 50%;
+   padding: 0.5%;
+   margin-left: 100%;
+   cursor: pointer;
 }
